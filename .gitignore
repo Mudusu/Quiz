@@ -1,0 +1,46 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# NuGet
+*.nupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.db
+*.sql
+
+# EF Migrations Snapshots
+ApplicationDbContextModelSnapshot.cs
+
+# Published output
+publish/
+
+# Visual Studio Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Secret files
+secrets.json
+
+# Local launch settings
+Properties/launchSettings.json
+
+# Static web assets cache
+*.staticwebassets.cache
