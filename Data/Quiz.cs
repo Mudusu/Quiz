@@ -19,7 +19,6 @@ namespace Quiz.Data
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
         public DateTime PublishedAt { get; set; }
         public bool IsPublished { get; set; }
-        public bool IsActive { get; set; }
         public bool IsPublic { get; set; }
         public int Played { get; set; }
         public int Likes { get; set; }
